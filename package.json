@@ -1,0 +1,41 @@
+{
+  "name": "z-mosaic",
+  "version": "1.0.2",
+  "description": "A react component that create a mosaic on an image",
+  "main": "dist/z-mosaic.bundle.js",
+  "files": [
+    "dist",
+    "demo"
+  ],
+  "scripts": {
+    "build": "webpack --env.NODE_ENV=production",
+    "dev": "webpack-dev-server"
+  },
+  "author": "GrayFrost",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GrayFrost/z-mosaic.git"
+  },
+  "keywords": ["react", "component"],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
